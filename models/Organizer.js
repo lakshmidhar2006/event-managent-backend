@@ -6,7 +6,11 @@ const organizerSchema = new mongoose.Schema({
     email: { type: String, required: true, unique: true },
     password: { type: String, required: true },
     organizationName: { type: String, required: true },
+<<<<<<< HEAD
     proofOfIdentity: { type: String, required: true }, // File upload path
+=======
+    
+>>>>>>> e311868 (Initial commit)
     role: { type: String, default: "organizer" },
 });
 
